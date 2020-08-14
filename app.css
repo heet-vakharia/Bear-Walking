@@ -1,0 +1,61 @@
+/* Body */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #212121;
+}
+/* Background */
+.bg {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background-color: #212121;
+}
+/* Svg Container */
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* Container */
+.container {
+  align-self: center;
+  height: 40%;
+  width: 50%;
+}
+/* Bear Frame */
+.CurrentFrame {
+  border: 10px solid #fff;
+  background: url("https://i.imgur.com/EYDRdVi.png?1");
+  background-size: cover;
+  background-position: bottom;
+  width: 75%;
+  padding-top: 10%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.CurrentFrame svg {
+  height: 50%;
+  width: 50%;
+}
+/* Lion And Teddy */
+.teddy,
+.lion {
+  height: 100%;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.teddy svg,
+.lion svg {
+  height: 80%;
+  width: 80%;
+}
